@@ -3,7 +3,8 @@ body{
        margin:0;
        font-family: 'Inter',sans-serif;
        width: 800px;
-       margin:30px auto;
+       margin:0 auto;
+       margin-bottom: 10px;
        background-color: #1F2937;
 
 }
