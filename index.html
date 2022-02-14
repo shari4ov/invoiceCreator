@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Invoice Creator</title>
+       <link rel="stylesheet" href="style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       
+
+</head>
+<body>
+       <header>
+              <h1>Invoice Creator</h1>
+              <p>Thanks for choosing CarService,LLC!</p>
+       </header>
+       <main>
+              <div class="btns-wrap">
+                     <button id="washing"><span class="wash-act">Wash Car</span>: $<span class="wash-price">10</span></button>
+                     <button id="mowing">
+                            <span class="mow-act">Mow Lawn</span>
+                            :$<span class="mow-price">20</span>
+                     </button>
+                     <button id="pulling">
+                            <span class="pull-act">Pull Weeds</span>: $<span class="pull-price">30</span>
+                     </button>
+              </div>
+              <div >
+                     <table id="process" >
+                            <thead>
+                                   <tr>
+                                          <th id="task">TASK</th>
+                                          <th id="total">TOTAL</th>
+                                   </tr>
+                            </thead>
+                            <tbody id="first-table">
+                                   <tr>
+                                          
+                                          
+                                   </tr>
+                            </tbody>
+                     </table>
+              </div>
+              <hr>
+              <div id="second-table">
+                     <table>
+                            <thead>
+                                   <tr>
+                                          <th>NOTES</th>
+                                          <th>Total Amount</th>
+                                   </tr>
+                            </thead>
+                            <tbody>
+                                   <tr>
+                                          <td>PayPal</td>
+                                          <td id="total-price">$0</td>
+                                   </tr>
+                            </tbody>
+                     </table>
+              </div>
+              <button type="reset" id="reset">📬Send invoice</button>
+       </main>
+       <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

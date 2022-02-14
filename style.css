@@ -1,0 +1,82 @@
+body{
+       text-align: center;
+       margin:0;
+       font-family: 'Inter',sans-serif;
+       width: 800px;
+       margin:30px auto;
+       background-color: #1F2937;
+
+}
+
+header{
+       background-color: #3A69D2;
+       color:#fff;
+       padding: 25px;
+       font-size: 20px;
+       margin-bottom: 30px;
+}
+main{
+       
+       color: #fff;
+}
+.btns-wrap{
+       display: flex;
+       padding:25px 13px;
+       justify-content: center;
+       margin-bottom: 15px;
+}
+.btns-wrap button{
+       margin-right: 20px;
+       font-size: 20px;
+       background-color: #D1D4f4;
+       border: none;
+       border-radius: 7px;
+       font-family: 'Inter',sans-serif;
+       color:#4a4e74;
+       font-weight: 500;
+       line-height: 16px;
+       padding:20px;
+       cursor: pointer;
+}
+table{ 
+       font-size: 15px;
+       
+       border-spacing: 0 40px;
+}
+
+th{
+       width: 700px;
+       
+       
+       padding: 5px;
+}
+
+#second-table th{
+       font-size: 15px;
+
+}
+#reset{
+       background-color: #3A69D2;
+       color: #fff;
+       border: none;
+       border-radius: 7px;
+       font-size: 20px;
+       width: 100%;
+       padding:14px 50px;
+       font-family: 'Inter',sans-serif;
+       cursor: pointer;
+}
+#process td{
+       font-size: 30px;
+       font-weight: bold;
+}
+.remove{
+       border: none;
+       background-color: #1F2937;
+       color:#D5D4D8;
+       cursor: pointer;
+}
+#total-price{
+       font-size: 40px;
+       font-weight: bold;
+}
